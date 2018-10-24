@@ -1,0 +1,65 @@
+html {
+  height: 100%;
+  font-size: 100%;
+}
+
+body {
+  font-family: Taviraj, serif;
+  font-size: 16px;
+}
+
+h1,{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 200%;
+  }
+h2, {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 150%;
+}
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 112.5%;
+}
+
+<center><style>
+.newspaper {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+    -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 1px; /* Firefox */
+    column-rule-width: 1px;
+    -webkit-column-rule-color: black; /* Chrome, Safari, Opera */
+    -moz-column-rule-color: black; /* Firefox */
+    column-rule-color: black;
+}
+</style>
+
+}
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 600px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+
+<head>
+<style>

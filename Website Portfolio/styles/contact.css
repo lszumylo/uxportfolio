@@ -1,0 +1,173 @@
+.connect {
+  color: white;
+  background-color: #F06261;
+  font-family: 'work sans', serif;
+   font-size: 50px;
+   font-weight: normal;
+   text-align: left;
+   padding-top: 35px;
+   text-decoration: none;
+   margin: auto;
+   padding-left: 200px;
+}
+
+
+.design {
+  color: white;
+  background-color: #F06261;
+  font-family: Taviraj, serif;
+ font-size: 20px;
+ font-weight: normal;
+ text-align: center;
+ padding-bottom: 35px;
+ text-decoration: none;
+ margin: auto;
+}
+
+.phone-icon {
+  position: relative;
+  height: 110px;
+  width: 115px;
+  left: 350px;
+  top: 90px;
+}
+
+.call {
+  font-family: Taviraj, serif;
+  font-size: 18px;
+  color: #F06261;
+  position: relative;
+  padding-left: 15px;
+}
+
+.number {
+    font-size: 18px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.letter {
+  position: relative;
+  height: 110px;
+  width: 115px;
+  left: 850px;
+  top: -89px;
+}
+
+
+.message {
+  font-family: Taviraj, serif;
+  font-size: 18px;
+  color: #F06261;
+  position: relative;
+  left: 555px;
+  top:-177px;
+}
+
+.leave-a-message {
+  font-family: Taviraj, serif;
+  font-size: 22px;
+  color: #F06261;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+
+form {
+  /* Just to center the form on the page */
+
+  margin: 0 auto;
+  width: 900px;
+  height: 500px;
+  color: #000080;
+  font-family: 'Taviraj',serif;
+  font-size: 18px;
+
+
+  /* To see the outline of the form */
+  padding: 1em;
+  border: 2px solid #31a2ac;
+  border-radius: 1em;
+
+}
+
+ div + div {
+  margin-top: 2em;
+}
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+}
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em 'Taviraj', serif;
+
+
+  /* To give the same size to all text fields */
+  width: 864px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+
+  /* To harmonize the look & feel of text field border */
+  border: 2px solid #31a2ac;
+
+}
+
+input:focus, textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+textarea {
+  /* To properly align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+
+  resize:vertical;
+}
+
+button {
+  /* To position the buttons to the same position of the text fields */
+  padding-center: 90px; /* same size as the label elements */
+  color: #000080;
+  height: 50px;
+  width: 200px;
+  font-size: 16px;
+  }
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-center: .5em;
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 10px
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 20px;
+  border-radius: 50%
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-twitter {
+  color: black;
+}
+
+.fa-linkedin {
+  color: black;
+}

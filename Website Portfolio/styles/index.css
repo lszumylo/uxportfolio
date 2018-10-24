@@ -1,0 +1,171 @@
+
+.job {
+color: white;
+background-color: #31A2AC;
+width: auto;
+font-size: 30px;
+font-weight: normal;
+text-align: center;
+padding-top: 30px;
+}
+
+.me {
+  color: #000080;
+  background-color: #31A2AC;
+  width: auto;
+  font-size: 65px;
+  font-weight: bold;
+  text-align: center;
+  }
+
+.town {
+  color: white;
+  background-color: #31A2AC;
+  width: auto;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.pink-container {
+  background-color: #fea5b7;
+  width: 100%;
+  height: 560px;
+  }
+
+
+
+  .description {
+    position: relative;
+    font-family: 'Taviraj', serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: #000000;
+  top:-380px;
+  left: 550px;
+}
+
+.sentence {
+  position: absolute;
+font-family: 'Taviraj', serif;
+font-size: 20px;
+font-weight: normal;
+color: #000000 ;
+top: 660px;
+left: 821px;
+text-align: center;
+}
+
+
+.button-scuba {
+  position: absolute;
+ font-family: 'Taviraj',serif;
+ font-weight: normal;
+ top: 750px;
+ left: 1045px;
+ background-color: #7d8f9d;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+}
+
+.scubagirl {
+  position: relative;
+  left:0px;
+  top:0;
+  height: 560px;
+  width: 720px;
+}
+
+
+  .yellow-container1 {
+    position: relative;
+    background-color: #f2d597;
+    width: 100%;
+    height: 560px;
+    top: -32px;
+
+  }
+
+.food-mockup {
+  position: relative;
+  height: 560px;
+  width: 690px;
+  left: 830px;
+  top: 0px;
+}
+
+  .description2 {
+    position: absolute;
+    font-family: 'Taviraj', serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: #000000;
+  top: 200px;
+  left: 350px;
+    }
+
+.sentence1 {
+  position: absolute;
+font-family: 'Taviraj', serif;
+font-size: 20px;
+font-weight: normal;
+color: #000000 ;
+top: 280px;
+left: 290px;
+
+}
+
+
+    .button-paycrave {
+       position: absolute;
+       font-family: 'Taviraj',serif;
+       font-weight: normal;
+       top: 370px;
+       left: 325px;
+       background-color: #7d8f9d;
+         border: none;
+         color: white;
+         padding: 15px 32px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+         margin: 4px 2px;
+         cursor: pointer;
+    }
+
+    .paycrave-yellow {
+
+    }
+
+
+
+    .fa {
+      padding: 10px;
+      font-size: 20px;
+      width: 10px
+      text-align: center;
+      text-decoration: none;
+      margin: 20px 20px;
+      border-radius: 50%
+    }
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+
+    .fa-twitter {
+      color: black;
+    }
+
+    .fa-linkedin {
+      color: black;
+    }

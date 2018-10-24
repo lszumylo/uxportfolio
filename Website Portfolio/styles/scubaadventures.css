@@ -1,0 +1,1435 @@
+
+
+.navigation-link {
+  link {
+      color: #DE5752;
+      background-color: transparent;
+      text-decoration: none;
+  }
+}
+  visited {
+      color: #0AC6E7;
+      background-color: transparent;
+      text-decoration: none;
+  }
+  hover {
+      color: #0AC6E7;
+      background-color: transparent;
+      text-decoration: underline;
+  }
+
+
+
+.project-title {
+  font-family: 'Work-Sans',sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  color: #000000;
+  }
+
+.project-summary {
+  font-family: 'Taviraj',serif;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+}
+
+.prototype {
+  text-align: center;
+  font-size: 15px;
+}
+
+ .problem {
+  font-family: 'Work-Sans',sans-serif;
+  color: #0AC6E7;
+  font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.sample {
+  font-family: 'Taviraj',serif;
+  color: #000000;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.solution {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: #0AC6E7;
+  text-align: center;
+}
+
+.explanation {
+font-family: 'Taviraj';
+font-size: 16px;
+font-weight: normal;
+text-align: center;
+color: #000000;
+}
+
+.newspaper {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+    -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 1px; /* Firefox */
+    column-rule-width: 1px;
+    -webkit-column-rule-color: black; /* Chrome, Safari, Opera */
+    -moz-column-rule-color: black; /* Firefox */
+    column-rule-color: black;
+}
+
+
+.research {
+font-family: 'Work-Sans', sans-serif;
+font-size: 36px;
+font-weight: normal;
+text-align: center;
+color: #DE5752;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.user-surveys {
+  font-family: 'Work-Sans', sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+  color: #0AC6E7;
+  }
+
+
+.results {
+font-family: 'Taviraj', serif;
+font-size: 16px;
+text-align: center;
+color: #000000;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+
+.flex-container > div {
+  background-color: #ffffff;
+  font-family:'Taviraj',serif;
+  width: 180px;
+  margin: 15px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 17px;
+}
+
+
+.grey-container {
+  background-color: #F0F0F0;
+  width: 100%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.analysis {
+  background-color: #F0F0F0;
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color:#0AC6E6;
+  text-align: center;
+}
+
+.swo {
+  background-color: #F0F0F0;
+  font-family: 'Taviraj',serif;
+  font-size: 16px;
+  text-align: left;
+  color: #000000;
+}
+
+
+.logo-container {
+  background-color: #F0F0F0;
+  width: 100%;
+  margin: auto;
+  padding: 60px 0px;
+  }
+
+ .mass-diving {
+  position: relative;
+  margin-right: 50px;
+  top: -30px;
+  width: 100px;
+  height:100px;
+}
+
+.padi-diving {
+    position: relative;
+    margin-left: 150px;
+    top: 0px;
+    width: 180px;
+    height: 172.91px;
+    }
+
+.dive-on-it {
+  position: relative;
+  margin-left: 100px;
+  top: -30px;
+  width: 285px;
+  height:120px;
+}
+
+.user-stories {
+  background-color: #ffffff;
+  width: 100%;
+  font-family: 'Work-Sans', sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+  color: #0ac6e7;
+  padding: 15px;
+}
+
+.crossover-stories {
+  background-color: #ffffff;
+  width: 100%;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  color: #000000;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+
+.column {
+    float:left;
+    width: 50%;
+    padding: 10px;
+    height: 640px;
+}
+
+.column {
+  margin-top: 0;
+    float:left;
+    width: 50%;
+    padding: 10px;
+    height: 640px;
+  }
+
+/* Clear floats after the columns */
+.row: after {
+    content: "";
+    display: table;
+}
+
+.desires {
+  font-family: 'Taviraj',serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.as-user {
+  font-family: 'Taviraj',sans-serif;
+  font-size: 25px;
+  color: #000000;
+  }
+
+.as-owner {
+  font-family: 'Taviraj',sans-serif;
+  font-size: 25px;
+  color: #000000;
+}
+
+.our-users {
+  font-family: 'Work-Sans',serif;
+  font-weight: normal;
+  font-size: 32px;
+  color: #0AC6E7;
+}
+
+.george-container {
+  width: 100%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.george-clark {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-right: 1000px;
+  margin-top: 10px;
+  }
+
+.quote {
+  position: relative;
+  margin-left: -70px;
+  font-family: 'Taviraj',serif;
+  font-style: italic;
+  font-size: 14px;
+  color: #000000;
+}
+
+.man {
+  position: relative;
+  margin-top: -350px;
+  font-family: 'Taviraj', serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.financial {
+  position: relative;
+  margin-top: -22px;
+  font-family: 'Taviraj',serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.goals {
+  position: relative;
+  margin-top: -35px;
+  margin-left: 240px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #F06261;
+}
+
+.skills {
+  position: relative;
+  margin-top: 20px;
+  margin-right: 435px;
+  text-align: center;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+  }
+
+.vacation {
+  position: relative;
+  margin-right: 495px;
+  margin-top: 10px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.included {
+  position: relative;
+  margin-right: 400px;
+  margin-top: 10px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+
+
+.nice {
+  position: relative;
+  margin-right: 495px;
+  margin-top: 10px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.frustrations {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 265px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #F06261;
+}
+
+.response {
+  position: relative;
+  margin-right: 550px;
+  margin-top: 10px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.detail {
+  position: relative;
+  margin-right: 505px;
+  margin-top: 10px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.blurry {
+  position: relative;
+  margin-right: 514px;
+  margin-top: 10px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.marilyn-container {
+  width: 100%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.marilyn-herbert {
+  position: relative;
+  width:320px;
+  height: 395px;
+  margin-right: 1000px;
+  margin-top: 10px;
+}
+
+.quote1 {
+  position: relative;
+  margin-left: -70px;
+  font-family: 'Taviraj',serif;
+  font-style: italic;
+  font-size: 14px;
+  color: #000000;
+}
+
+.woman {
+  position: relative;
+  margin-top: -450px;
+  font-family: 'Taviraj', serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.dentist {
+  position: relative;
+  margin-top: -22px;
+  font-family: 'Taviraj',serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.goals1 {
+  position: relative;
+  margin-top: -35px;
+  margin-left: 240px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #F06261;
+}
+
+.family {
+  position: relative;
+  margin-top: 20px;
+  margin-right: 395px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.traveling {
+  position: relative;
+  margin-right: 325px;
+  margin-top: 20px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  color: #000000;
+}
+
+
+.share {
+  position: relative;
+  margin-right: 388px;
+  margin-top: 20px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.learning {
+  position: relative;
+  margin-right: 482px;
+  margin-top: 20px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+}
+
+
+.frustrations1 {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 265px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #F06261;
+}
+
+.rates {
+position: relative;
+margin-left: 545px;
+margin-top: 20px;
+font-family: 'Taviraj', serif;
+font-size: 16px;
+font-weight: normal;
+text-align: left;
+color: #000000;
+}
+
+.price {
+  position: relative;
+  margin-left: 545px;
+  margin-top: 20px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.guarantee {
+  position: relative;
+  margin-left: 420px;
+  margin-top: 20px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.confirm {
+  position: relative;
+  margin-left: 540px;
+  margin-top: 20px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.daniel-container {
+  width: 100%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.daniel-kuhn {
+  position: relative;
+  width:275px;
+  height: 300px;
+  margin-right: 1000px;
+  margin-top: 10px;
+}
+
+.quote2 {
+position: relative;
+margin-left: -70px;
+font-family: 'Taviraj',serif;
+font-style: italic;
+font-size: 14px;
+color: #000000;
+}
+
+.student {
+  position: relative;
+  margin-top: -350px;
+  font-family: 'Taviraj', serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.college {
+  position: relative;
+  margin-top: -22px;
+  font-family: 'Taviraj',serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.goals2 {
+  position: relative;
+  margin-top: 35px;
+  margin-left: 240px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #F06261;
+}
+
+.inexpensive {
+  position: relative;
+  margin-top: 20px;
+  margin-right: 480px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.accomodation {
+  position: relative;
+  margin-right: 322px;
+  margin-top: 20px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.leave {
+  position: relative;
+  margin-right: 455px;
+  margin-top: 20px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.types {
+  position: relative;
+  margin-right: 485px;
+  margin-top: 20px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.frustrations2 {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 265px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #F06261;
+}
+
+.flight {
+  position: relative;
+  margin-left: 545px;
+  margin-top: 20px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.price {
+  position: relative;
+  margin-left: 545px;
+  margin-top: 20px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.fee {
+  position: relative;
+  margin-left: 540px;
+  margin-top: 20px;
+  font-family: 'Taviraj', serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.user-flow-container {
+  background-color: #ffffff;
+  width: 100%;
+  margin: auto;
+  padding: 60px 0px;
+  }
+
+
+
+.Architecture {
+background-color: #ffffff;
+font-family: 'Work-Sans', sans-serif;
+font-size: 36px;
+font-weight: normal;
+text-align: center;
+color: #DE5752;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+
+.userflow {
+  background-color: #ffffff;
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color:#0AC6E6;
+  text-align: center;
+}
+
+
+.flows {
+  background-color: #FFFFFF;
+  font-family: 'Taviraj'sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  padding: 20px;
+}
+
+.multi {
+  position: relative;
+  width: 960px;
+  height: 560px;
+}
+
+.cave {
+  position: relative;
+  width: 960px;
+  height: 580px;
+}
+
+.dive-photos {
+  position: relative;
+  width: 970px;
+  height: 650px;
+}
+
+
+.newsletter {
+  position: relative;
+  width: 900px;
+  height: 350px;
+}
+
+.rep {
+  position: relative;
+  width: 1100px;
+  height: 550px;
+}
+
+.wireframe-container {
+  background-color: #F0EFF0;
+  color: #000000;
+  padding: 20px;
+}
+
+.wireframe {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: #0AC6E6;
+  text-align: center;
+}
+
+.screen {
+  font-family: 'Taviraj',sans-serif;
+  font-style: 16px;
+  font-style: normal;
+  color: #000000;
+}
+
+
+.wireframe-slides-container {
+  background-color: #F0EFF0;
+  color: #000000;
+  padding: 20px;
+}
+
+
+.wireframe-slides {
+  font-family: 'Taviraj', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  margin-top: 10px;
+  display:none;
+ }
+
+
+
+.wireframe-slides-container-display-left {
+    padding: 20px;
+
+
+}
+
+.wireframe-slides-container-display-right {
+  padding: 20px;
+}
+
+.high-fid-wireframe-slides-container {
+  background-color: #F0EFF0;
+  color: #000000;
+  padding: 20px;
+}
+
+
+.high-fid-wireframe-slides {
+  font-family: 'Taviraj', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  margin-top: 10px;
+  display:none;
+}
+
+
+.high-fid-wireframe-slides-container-display-left {
+  padding: 20px;
+}
+
+.high-fid-wireframe-slides-container-display-right {
+  padding: 20px;
+}
+
+
+.med-home {
+  position: relative;
+  width: 350px;
+  height: 800px;
+}
+
+.med-destination {
+  position: relative;
+  width: 350px;
+  height: 800px;
+}
+
+.med-caribbean {
+  position: relative;
+  width: 350px;
+  height: 1200px;
+}
+
+.med-testimonials {
+  position: relative;
+  width:  350px;
+  height: 800px;
+}
+
+
+.user-testing-container {
+    background-color: #0AC6E7;
+    color: #000000;
+    padding: 20px;
+}
+
+.user-testing {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: #000000;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.test {
+  font-family: 'Taviraj',sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  color: #000000;
+  padding: 10px;
+  text-align: left;
+}
+
+.results-summary {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  color: #000000;
+  text-align: center;
+}
+
+.question1 {
+font-family: 'Taviraj', sans-serif;
+font-style: normal;
+font-size: 16px;
+color: #000000;
+margin-top: 18px;
+}
+
+.question2 {
+  font-family: 'Taviraj', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.question3 {
+  font-family: 'Taviraj', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.problem1 {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.problem1-explanation {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.problem2 {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:#000000;
+  text-align: center;
+}
+
+.problem2-explanation {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.results {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+
+}
+
+.results-explanation {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.thoughts {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.thoughts-explanation {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.link-user-testing-report {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+
+.high-fid-wireframe {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: #0AC6E6;
+  text-align: center;
+}
+
+.high-fid-explanation {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.high-home {
+  position: relative;
+  width: 350px;
+  height:700px;
+}
+
+.high-destination {
+  position: relative;
+  width: 350px;
+  height: 700px;
+}
+
+.high-testimonial {
+  position: relative;
+  width: 350px;
+  height: 700px;
+}
+
+
+.high-caribbean {
+  position: relative;
+  width: 350px;
+  height: 1200px;
+}
+
+.brand-identity {
+  background-color: #ffffff;
+  font-family: 'Work-Sans', sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  color: #DE5752;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  }
+
+.brand-identity-container {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+}
+
+.logo-sketch {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 32px;
+  font-weight: normal;#F0F0F0;
+  color: #0AC6E6;
+  text-align: center;
+}
+
+.logo-explanation {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+
+.image-logo-1 {
+  position: relative;
+  width: 450px;
+  height: 550px;
+}
+
+.image-logo-2 {
+  position: relative;
+  width: 450px;
+  height: 550px;
+}
+
+.image-logo-3 {
+  position: relative;
+  width: 450px;
+  height: 550px;
+}
+
+.style-guide-container {
+  background-color: #F0EFF0;
+  padding: 10px;
+}
+
+.style-guide {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: #0AC6E6;
+  text-align: center;
+}
+
+
+.color-palette {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:#000000;
+  text-align: center;
+  }
+
+
+.style-guide-explanation {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.typography {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:#000000;
+  text-align: center;
+}
+
+.typography-explanation {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+
+.style-image {
+  position: relative;
+  width: 500px;
+  height: 900px;
+  padding-bottom: 10px;
+}
+
+.design-mockup-container {
+  background-color: #0ac6e7;
+  color: #000000;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.design-mockup {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: #000000;
+  text-align: center;
+}
+
+.design-explanation {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.design-home {
+  position: relative;
+  width: 400px;
+  height: 700px;
+}
+
+
+.design-destination {
+  position: relative;
+  width: 450px;
+  height: 700px;
+}
+
+
+.design-testimonial {
+  position: relative;
+  width: 350px;
+  height: 700px;
+}
+
+.preferance-testing-container {
+background-color: #0ac6e7;
+width: 100%;
+margin: auto;
+padding: 60px 0px;
+}
+
+
+.preferance-testing {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: #000000;
+  text-align: center;
+
+}
+
+.preferance-testing-explanation {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.pref-test-1 {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.pref-1-explanation {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.pref-test-a {
+  position: relative;
+  width: 350px;
+  height: 700px;
+}
+
+.pref-test-d {
+  position: relative;
+  width: 350px;
+  height: 700px;
+}
+
+.pref-test-2 {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.pref-2-explanation {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.pref-test-a1 {
+  position: relative;
+  width: 350px;
+  height: 700px;
+}
+
+.pref-test-c {
+  position: relative;
+  width: 350px;
+  height: 700px;
+}
+
+
+.pref-test-3 {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.pref-3-explanation {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.pref-test-a2 {
+  position: relative;
+  width: 350px;
+  height: 700px;
+}
+
+.pref-test-b {
+  position: relative;
+  width: 350px;
+  height: 700px;
+}
+
+.end-result {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.final {
+  position: relative;
+  width: 350px;
+  height: 700px;
+}
+
+.conclusion-container {
+  background-color: #ffffff;
+  width: 100%;
+  margin: auto;
+  padding: 60px 0px;
+}
+
+
+.conclusion {
+  font-family: 'Work-Sans', sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  color: #DE5752;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  }
+
+.what-worked {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: #0AC6E6;
+  text-align: center;
+}
+
+.worked-explanation {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.project-concerns {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: #0AC6E6;
+  text-align: center;
+}
+
+
+.project-explanation {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+
+.surprised {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: #0AC6E6;
+  text-align: center;
+}
+
+
+.surprised-explanation {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.better-me {
+  font-family: 'Work-Sans',sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: #0AC6E6;
+  text-align: center;
+}
+
+.better-me-explanation {
+  font-family: 'Taviraj',sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+
+
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 10px
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 20px;
+  border-radius: 50%
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-twitter {
+  color: black;
+}
+
+.fa-linkedin {
+  color: black;
+}
